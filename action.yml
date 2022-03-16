@@ -1,10 +1,10 @@
-name: 'Nms Install'
+name: 'NMS Install'
 description: 'Install NMS for use in building spigot plugins'
 inputs:
   rev:
     description: 'Revision of NMS to use'
     required: true
-    default: '1.15.2'
+    default: '1.18.2'
 runs:
   using: 'docker'
   image: 'Dockerfile'
